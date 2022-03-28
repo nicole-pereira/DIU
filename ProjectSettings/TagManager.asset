@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Spike
+  - Bullet
+  - Enemy
+  - GameOver
+  - Fruit
   layers:
   - Default
   - TransparentFX
@@ -14,8 +19,8 @@ TagManager:
   - 
   - 
   - Ground
-  - 
-  - 
+  - GameOver
+  - Fruit
   - 
   - 
   - 
