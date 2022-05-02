@@ -29,6 +29,7 @@ public class Enemy2 : MonoBehaviour
     void Update()
     {
         if(posPlayer.gameObject != null)
+        // Vira o inimigo
         {
             transform.position = Vector2.MoveTowards(transform.position, posPlayer.position, speed * Time.deltaTime);
         }
